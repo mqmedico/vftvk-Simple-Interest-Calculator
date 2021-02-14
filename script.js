@@ -44,7 +44,7 @@ function compute()
 	// Checking if the input for principal is equal or less than 0...
 	if (principal <= 0){
 		alert("Enter a positive number");
-		document.getElementById("principal").focus;
+		document.getElementById("principal").focus();
 	} else {
 
 		// Displaying the result...
